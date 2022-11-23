@@ -64,7 +64,7 @@
 
 @media only screen and (min-width: 1024px) {
 
-  .flipAll .flip-card-inner{
+  /* .flipAll .flip-card-inner{
     transform: rotateY(180deg);
-  }
+  } */
 }

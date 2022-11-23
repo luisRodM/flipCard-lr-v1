@@ -15,11 +15,11 @@
   transform-style: preserve-3d;
 }
 
-/* .flip-card:hover .flip-card-inner{
+/* .flipAll:hover .flip-card-inner{
   transform: rotateY(180deg);
 } */
 
-.flip-card.flip{
+.flipAll .flip-card-inner{
   transform: rotateY(180deg);
 }
 
@@ -59,4 +59,12 @@
 
 .flip-card-back h1{
   margin: 0;
+}
+
+
+@media only screen and (min-width: 1024px) {
+
+  .flipAll .flip-card-inner{
+    transform: rotateY(180deg);
+  }
 }
